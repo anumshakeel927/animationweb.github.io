@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- <link rel="stylesheet" type="text/css" href="C:\Users\anum9\OneDrive\Desktop\bootstrap\bs.css">
+ -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!---aos files-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<style type="text/css">/*.navbar{
+  height: 80px;
+}
+.navbar-nav {
+  height: 100px;
+
+
+
+
+}*/
+.bgimg{
+      background-image: url('https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?cs=srgb&dl=blur-blurry-coffee-273222.jpg&fm=jpg');
+      background-size: 100% 100%;
+      width: 100%;
+      height: 650px;
+      background-attachment: fixed;
+      /*opacity: 0.8;
+        filter: alpha(opacity=50);
+*/
+
+}
+/*.bgimg:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); }
+   For IE8 and earlier 
+}*/
+.headerset{
+  padding-top: 200px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.headerset h1{
+  font-size: 68px;
+  font-weight: bolder;
+}
+.headerset h2{
+  font-weight: bold;
+  font-size: 28px;
+}
+/*,,,,,,,,,,,,,our services..,,,,,,,,,,,,,,,*/
+.ourservices {
+  padding:  100px  0px 60px ;
+  height: 700px;
+}
+
+
+.ourservices h1{
+  font-weight: bolder;
+  font-size: 48px;
+
+}
+.rowsetting{
+  margin: 80px 0px ;
+}
+.imgsetting{
+
+    border-radius: 50px;
+  height: 100px;
+  width: 100px;
+
+
+}
+.fa-shopping-cart{
+  margin-top:  20px;
+
+}
+.fa-lock{
+  margin-top:  24px;
+
+}
+.fa-desktop{
+  margin-top:  25px;
+
+}
+.rowsetting p{
+  color: #6c575d;
+  padding:10px;
+}
+
+.rowsetting h2{
+
+  font-size:30 px;
+  font-weight: bold;
+  margin-top: 20px;
+}/*
+...............Potrfolio...............*/
+
+.Potrfolio{
+
+
+padding: 100px 0px 50px;
+ width: 100%;
+ height: 1100px;
+padding-top: 50px;
+font-weight: bold;
+
+  
+}
+
+.Potrfolio h3{
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+.card{
+  margin-top: 50px;
+}
+
+
+/*...............our team...............*/
+
+
+.Ourteam{
+
+  height: 750px;
+  padding: 100px 0px 60px;
+  width: 100%;
+  padding-top: 10%;
+
+}
+.Ourteam h2{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.teamsetting{
+  margin-top: 90px;
+}
+
+.footer{
+  padding-top: -30%;
+  height: 100px;
+  line-height: 30px;
+}
+/*
+///// responsive//////////////////////////////////*/
+@media screen and (max-width: 1200px){
+  
+.ourservices {
+
+  height: 800px;
+}
+.Potrfolio{
+ height: 1200px;
+ margin-top: -100%
+
+  
+}
+.Ourteam{
+
+height: 800px;
+margin-top: 3%;
+ 
+}
+
+@media screen and (max-width: 768px){
+
+.ourservices {
+
+  height: 1100px;
+}
+.Potrfolio{
+ height: 1200px;
+ margin-top: -100%
+  
+}
+.Ourteam{
+
+height: 1300px;
+margin-top: 400%;
+ 
+}
+ 
+}
+@media screen and (max-width: 368px)/*/*(max-width: 480px)*/{
+
+
+  .headerset h1{
+  font-size: 48px;
+  font-weight: bolder;
+}
+.headerset h2{
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.ourservices {
+
+  height: 1100px;
+}
+.Potrfolio{
+ height:2000px;
+ margin-top: 1000px;
+  
+}
+.Ourteam{
+
+height: 1300px;
+margin-top: 250%;
+ 
+}
+
+}
+
+</style>
+ 
+
+</head>
+<body>
+
+
+  
+
+
+<div class="bgimg">
+	
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" height="20%">
+<div class="container">
+	<a href="" class="navbar-brand text-warning font-weight-bold "> Anum Shakeel</a>
+
+
+<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapse-navbar" >
+<span class="navbar-toggler-icon" ></span>
+</button>
+
+<div class="collapse navbar-collapse text-center"    id="collapse-navbar" >
+	<ul class="navbar-nav ml-auto" >
+		<li class="nav-item">
+			<a href="#services" class="nav-link text-white">SERVICES</a>
+		</li>
+		<li class="nav-item">
+			<a href="#" class="nav-link text-white">HOME</a>
+		</li>
+		<li class="nav-item">
+			<a href="#portfolioo" class="nav-link text-white">PORTFOLIO</a>
+		</li>
+		<li class="nav-item">
+			<a href="#"   class="nav-link text-white">ABOUT US</a>
+		</li>
+		<li class="nav-item">
+			<a href="#team" target="_self"  class="nav-link text-white">TEAM</a>
+		</li>
+	</ul>
+</div>
+</div>
+</nav>
+
+
+
+<div class="container  text-blue text-center headerset ">
+	<h2>Its Nice to Meet You</h2>
+	<h1>Welcome to Web Hub</h1>
+
+
+	<button type="button" class="btn btn-warning btn-lg text-white">View More</button>
+</div>
+
+</div>
+
+
+
+<!--our services-->
+<section class="container ourservices text-center" id="services">
+
+	<h1>Our Services</h1>
+	<p>lorem ispum lorem ispum lorem magenta jock isp ispum lorem ispum</p>
+	
+
+	<div class="row  rowsetting">
+		
+        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+        	<div class="imgsetting d-block m-auto bg-warning">
+        		
+        			
+        			<i class="fa fa-shopping-cart fa-3x text-white"></i>
+
+        	</div>
+        	<h2>E-Commerce</h2>
+        	<p>WE understands that online shopping in Pakistan comes with its fair share of risk</p>
+
+	</div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+        	<div class="imgsetting d-block m-auto bg-warning">
+        		
+        			
+        			<i class="fa fa-desktop fa-3x text-white"></i>
+
+        	</div>
+        	<h2>Responsive Design</h2>
+        	<p>WE understands that online shopping in Pakistan comes with its fair share of risk</p>
+
+	</div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+        	<div class="imgsetting d-block m-auto bg-warning">
+        		
+        			
+        			<i class="fa fa-lock fa-3x text-white"></i>
+
+        	</div>
+        	<h2>Web Security</h2>
+        	<p>WE understands that online shopping in Pakistan comes with its fair share of risk</p>
+
+	</div>
+</div>
+
+</section>
+
+<!-- /////..............potrfolio...............///// -->
+
+
+<section class="Potrfolio bg-light  d-block m-auto" id="portfolioo">
+ 
+
+        <div class="container text-center ">
+		  <h3>PORTFOLIO</h3>
+			<p>Lorem Ispum mock ispum Lorem Ispum mock </p>
+
+
+
+	<div class="row ">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+ 
+		<div class="card">
+     <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2200">
+			<img src= "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=apps-blur-button-close-up-267350.jpg&fm=jpg" class="card-img img-fluid">
+    </div>
+
+			<div class="card-body">
+				<h2 class="card-title">Water</h2>
+				<p class="card-text">Import from USA</p>
+			</div>
+		</div>
+
+
+	</div>
+
+	<!---2 pic-->
+	 <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+	
+	
+		<div class="card">
+      <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2200">
+
+			<img src="https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?cs=srgb&dl=blur-blurry-coffee-273222.jpg&fm=jpg"  class="card-img img-fluid">
+    </div>
+			<div class="card-body">
+				<h2 class="card-title">Technical</h2>
+				<p class="card-text">Websites</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!--3 pic-->
+
+			
+		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+		<div class="card">
+
+      <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+			<img src="https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?cs=srgb&dl=art-background-blank-1037995.jpg&fm=jpg"  class="card-img img-fluid">
+    </div>
+			<div class="card-body">
+				<h2 class="card-title">Explore</h2>
+				<p class="card-text">Graphic Design</p>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+	<!-- 2 roww-->
+	<br/>
+
+	<div class="row ">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+
+		<div class="card">
+
+      <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+			<img src="https://images.pexels.com/photos/1001990/pexels-photo-1001990.jpeg?cs=srgb&dl=art-card-ceramic-cup-1001990.jpg&fm=jpg"  class="card-img img-fluid">
+    </div>
+			<div class="card-body">
+				<h2 class="card-title">Laptop </h2>
+				<p class="card-text">Love</p>
+			</div>
+		</div>
+	</div>
+
+	<!---2 pic-->
+	<div class="col-lg-4 col-md-4 col-sm-12 col--12">
+	
+	
+		<div class="card">
+      <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+			<img src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?cs=srgb&dl=action-america-architecture-378570.jpg&fm=jpg" class="card-img img-fluid">
+    </div>
+			<div class="card-body">
+				<h2 class="card-title">Water</h2>
+				<p class="card-text">Import from USA</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!--3 pic-->
+
+			
+		<div class="col-lg-4 col-md-4 col-sm-12 col--12">
+		<div class="card">
+      <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+	<img src="https://images.pexels.com/photos/1051077/pexels-photo-1051077.jpeg?cs=srgb&dl=adventure-antique-background-1051077.jpg&fm=jpg" class="card-img img-fluid" style="height: 230px;">
+</div>
+			<div class="card-body">
+				<h2 class="card-title">Non-Tech</h2>
+				<p class="card-text">Writing</p>
+			</div>
+		</div>
+	</div>
+
+	</div>
+ </div>
+
+</section>
+
+
+<!--- our team-->
+
+
+
+<section class="Ourteam" id="team">
+  <div class="container text-center">
+    <h2>Our Amazing Team</h2>
+    <p>lorem ispum lorem ispum</p>
+    <div class="row teamsetting">
+      <div class="col-md-4 col-lg-4 col-sm-10 col-12  d-block m-auto">
+        <figure class="figure">
+          
+          
+          <img src="https://images.pexels.com/photos/1036641/pexels-photo-1036641.jpeg?cs=srgb&dl=two-woman-and-one-man-looking-at-the-laptop-1036641.jpg&fm=jpg" class="figure-img img- fluid rounded-circle" height="250px" width="250px">
+          <figcaption >
+            <h4>Key Garkand</h4>
+            <p class="figure-caption">web designer</p>
+          </figcaption>
+        </figure>
+    </div>  
+
+
+
+     <div class="col-md-4 col-lg-4 col-sm-10 col-12  d-block m-auto">
+        <figure class="figure">
+    <img src="https://images.pexels.com/photos/1181394/pexels-photo-1181394.jpeg?cs=srgb&dl=chairs-conference-room-digital-nomad-1181394.jpg&fm=jpg" class="figure-img img- fluid rounded-circle" height="250px" width="250px">
+          <figcaption >
+            <h4>john alie</h4>
+            <p class="figure-caption">web developer</p>
+          </figcaption>
+        </figure>
+    </div>
+
+
+     <div class="col-md-4 col-lg-4 col-sm-10 col-12  d-block m-auto">
+        <figure class="figure">
+          <img src="https://images.pexels.com/photos/1367271/pexels-photo-1367271.jpeg?cs=srgb&dl=adult-communication-conference-room-1367271.jpg&fm=jpg" class="figure-img img- fluid rounded-circle" height="250px" width="250px">
+          <figcaption >
+            <h4>Key Garkand</h4>
+            <p class="figure-caption">graphic designer</p>
+          </figcaption>
+        </figure>
+    </div>  
+
+
+  </div>
+</div>
+
+</section>
+
+
+<!--- footer-->
+
+<section class="footer">
+
+<footer class="page-footer font-small blue-grey lighten-5">
+
+  <div style="background-color: #d39e00;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+   
+
+            <i class="fa fa-facebook   white-text mr-4"  ></i>
+         
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fa fa-twitter white-text mr-4"> </i>
+          </a>
+          <!-- Google +-->
+         
+             <a class="tw-ic">
+            <i class="fa fa-instagram white-text mr-4"> </i>
+          </a>
+         
+        
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Company name</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Here you can make new websites s</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a class="dark-grey-text" href="#!">MDBootstrap</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">MDWordPress</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">BrandFlow</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Bootstrap Angular</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a class="dark-grey-text" href="#!">Your Account</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Become an Affiliate</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Shipping Rates</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Help</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fa fa-home mr-3"></i>Pakistan</p>
+        <p>
+          <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+        <p>
+          <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3   " style="background-color: #343a40">  
+  <p  style="color: white ;font-weight:bold">  © 2019 Copyright: AS</p>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</section>
+
+
+
+
+
+
+ <script>
+  AOS.init();
+</script>
+
+</body>
+</html>
+
+
